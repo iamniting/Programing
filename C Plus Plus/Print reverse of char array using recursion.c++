@@ -12,7 +12,6 @@ void print_string(char * ptr)
 int main()
 {
     char str[] = "Hello";
-    //char * ptr = &str;
     print_string(str);
     return 0;
 }
