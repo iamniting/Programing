@@ -48,6 +48,5 @@ int main()
     cout << "size " << ar.size() << endl;
     cout << "max_size " << ar.max_size() << endl;
     cout << "empty " << ar.empty() << endl;
-    
     return 0;
 }
