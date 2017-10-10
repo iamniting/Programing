@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Array_List
+public class Array list
 {
 
     public static void main(String[] args)
