@@ -8,7 +8,7 @@ int main()
     array<int, 6> ar ;
 
     ar.fill(3);
-    cout << "The array elements are" << endl;
+    cout << "The array contains" << endl;
     for (int i=0; i<6; i++)
     cout << ar[i] << " ";
     cout << endl;
