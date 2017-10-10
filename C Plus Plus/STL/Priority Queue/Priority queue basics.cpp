@@ -25,8 +25,8 @@ int main()
     
     cout << "priority queue contains" << endl;
     showpq(pq);
-    cout << "top " << pq.top() << endl;
-    cout << "size " << pq.size() << endl;
-    cout << "empty " << pq.empty() << endl;
+    cout << "pq.top()  " << pq.top() << endl;
+    cout << "pq.size()  " << pq.size() << endl;
+    cout << "pq.empty()  " << pq.empty() << endl;
     return 0;
 }
