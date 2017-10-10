@@ -27,26 +27,26 @@ int main()
         cout << ar[i] << " ";
         cout << endl;
     
-    cout << "front " << ar.front() << endl;
-    cout << "front+4 " << ar.front()+4 << endl;
+    cout << "ar.front()  " << ar.front() << endl;
+    cout << "ar.front()+4  " << ar.front()+4 << endl;
     
-    cout << "back " << ar.back() << endl;
-    cout << "back+2 " << ar.back()+2 << endl;
+    cout << "ar.back()  " << ar.back() << endl;
+    cout << "ar.back()+2  " << ar.back()+2 << endl;
     
-    cout << "begin " << *ar.begin() << endl;
-    cout << "begin+5 " << *ar.begin()+5 << endl;
-    cout << "(begin+2) " << *(ar.begin()+2) << endl;
+    cout << "*ar.begin()  " << *ar.begin() << endl;
+    cout << "*ar.begin()+5  " << *ar.begin()+5 << endl;
+    cout << "*(ar.begin()+2)  " << *(ar.begin()+2) << endl;
     
-    cout << "(end-1)" << *(ar.end()-1) << endl;
+    cout << "*(ar.end()-1)  " << *(ar.end()-1) << endl;
     
-    cout << "rbegin " << *ar.rbegin() <<endl;
-    cout << "rbegin+1 " << *ar.rbegin()+1 << endl;
-    cout << "(rbegin+1) " << *(ar.rbegin()+1) << endl;
+    cout << "*ar.rbegin()  " << *ar.rbegin() <<endl;
+    cout << "*ar.rbegin()+1  " << *ar.rbegin()+1 << endl;
+    cout << "*(ar.rbegin()+1)  " << *(ar.rbegin()+1) << endl;
     
-    cout << "rend-1 " << *(ar.rend()-1) <<endl;
+    cout << "*(ar.rend()-1)  " << *(ar.rend()-1) <<endl;
     
-    cout << "size " << ar.size() << endl;
-    cout << "max_size " << ar.max_size() << endl;
-    cout << "empty " << ar.empty() << endl;
+    cout << "ar.size()  " << ar.size() << endl;
+    cout << "ar.max_size()  " << ar.max_size() << endl;
+    cout << "ar.empty()  " << ar.empty() << endl;
     return 0;
 }
