@@ -36,23 +36,23 @@ int main()
     cout << "after pop back of l1" << endl;
     showlist(l1);
 
-    cout << "front " << l1.front() << endl;
-    cout << "front+4 " << l1.front()+4 << endl;
+    cout << "l1.front()  " << l1.front() << endl;
+    cout << "l1.front()+4  " << l1.front()+4 << endl;
 
-    cout << "back " << l1.back() << endl;
-    cout << "back+4 " << l1.back()+4 << endl;
+    cout << "l1.back()  " << l1.back() << endl;
+    cout << "l1.back()+4  " << l1.back()+4 << endl;
 
-    cout << "begin " << *l1.begin() << endl;
-    cout << "begin+1 " << *l1.begin()+1 << endl;
+    cout << "*l1.begin()  " << *l1.begin() << endl;
+    cout << "*l1.begin()+1  " << *l1.begin()+1 << endl;
 
-    cout << "end " << *l1.end() << endl;
+    cout << "*l1.end()  " << *l1.end() << endl;
 
-    cout << "rbegin " << *l1.rbegin() <<endl;
-    cout << "rbegin+1 " << *l1.rbegin()+1 << endl;
+    cout << "*l1.rbegin()  " << *l1.rbegin() <<endl;
+    cout << "*l1.rbegin()+1  " << *l1.rbegin()+1 << endl;
 
-    cout << "rend-1 " << *l1.rend() <<endl;
+    cout << "*l1.rend()  " << *l1.rend() <<endl;
 
-    cout << "size " << l1.size() << endl;
-    cout << "empty " << l1.empty() << endl;
+    cout << "l1.size()  " << l1.size() << endl;
+    cout << "l1.empty()  " << l1.empty() << endl;
     return 0;
 }
