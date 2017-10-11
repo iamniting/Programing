@@ -20,7 +20,7 @@ int main()
     s.insert(16);
     s.insert(11);
     
-    cout << "set contains" << endl;
+    cout << "multiset contains" << endl;
     showSet(s);
     
     cout << "s.begin() " << *s.begin() << endl;
