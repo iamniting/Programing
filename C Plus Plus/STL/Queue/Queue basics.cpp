@@ -4,7 +4,6 @@ using namespace std;
 
 void showQueue(queue<int> q)
 {
-    
     while(! q.empty())
     {
         cout << q.front() << " ";
