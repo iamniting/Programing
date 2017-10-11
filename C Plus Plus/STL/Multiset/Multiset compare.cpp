@@ -20,7 +20,7 @@ int main()
         s.insert(i);
     
     cmp = s.key_comp();
-    cout << "set contains" << endl;
+    cout << "multiset contains" << endl;
     showSet(s);
     itr = s.begin();
     while( cmp( *(itr), 4) )
