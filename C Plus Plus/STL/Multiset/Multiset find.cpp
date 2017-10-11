@@ -14,7 +14,6 @@ int main()
 {
     multiset<int> s;
     multiset<int> :: iterator itr;
-    int count;
     
     for(int i=0; i<10; i++)
         s.insert(i);
