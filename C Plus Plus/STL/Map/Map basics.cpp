@@ -37,5 +37,8 @@ int main()
     cout << "m[9] " << m[9] << endl;
     cout << "m.at(10) " << m.at(10) << endl;
     cout << "m.at(9) " << m.at(9) << endl;
+    
+    m.clear();
+    showMap(m);
     return 0;
 }
